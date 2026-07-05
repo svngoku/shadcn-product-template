@@ -5,8 +5,9 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-sans: var(--font-geist), 'Geist Fallback', ui-sans-serif, system-ui, sans-serif;
-  --font-title: 'Stack Sans Notch', var(--font-geist), sans-serif;
+  --font-sans: 'Stack Sans Text', ui-sans-serif, system-ui, sans-serif;
+  --font-title: 'Stack Sans Notch', 'Stack Sans Text', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
 }
 
 @theme inline {
