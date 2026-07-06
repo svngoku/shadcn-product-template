@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ArrowRight, Github, Gitlab, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 const FOOTER_COLS = [
   {
@@ -71,17 +71,6 @@ export function CtaFooter() {
               AI code reviews for teams who move fast but don&apos;t break
               things.
             </p>
-            <div className="mt-5 flex items-center gap-4 text-muted-foreground">
-              <a href="#" aria-label="GitHub" className="hover:text-foreground">
-                <Github className="size-5" />
-              </a>
-              <a href="#" aria-label="GitLab" className="hover:text-foreground">
-                <Gitlab className="size-5" />
-              </a>
-              <a href="#" aria-label="Email" className="hover:text-foreground">
-                <Mail className="size-5" />
-              </a>
-            </div>
           </div>
 
           {FOOTER_COLS.map((col) => (
