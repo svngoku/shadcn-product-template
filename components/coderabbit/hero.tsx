@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Gitlab, Mail } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 export function Hero() {
   return (
@@ -27,9 +27,9 @@ export function Hero() {
           {"& bugs in half, "}
           <span className="text-primary">instantly.</span>
         </h1>
-
         <p className="mx-auto mt-6 max-w-xl text-pretty text-lg text-muted-foreground">
           Reviews for AI-powered teams who move fast (but don&apos;t break
+
           things).
         </p>
 
@@ -45,8 +45,6 @@ export function Hero() {
           <div className="flex items-center gap-3 text-sm text-muted-foreground">
             <span>2-click install</span>
             <span className="flex items-center gap-2.5">
-              <Gitlab className="size-4 text-[#fc6d26]" />
-              <Github className="size-4" />
               <Mail className="size-4" />
             </span>
           </div>
