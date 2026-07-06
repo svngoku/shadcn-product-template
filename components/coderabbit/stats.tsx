@@ -1,4 +1,4 @@
-import { ArrowRight, Github, Gitlab } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const STATS = [
   { value: "6M", label: "Repositories" },
@@ -31,8 +31,6 @@ export function Stats() {
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-between">
           <div className="flex items-center gap-3 text-sm text-muted-foreground">
             <span>Most installed AI App</span>
-            <Github className="size-5 text-foreground" />
-            <Gitlab className="size-5 text-[#fc6d26]" />
           </div>
           <a
             href="#"
